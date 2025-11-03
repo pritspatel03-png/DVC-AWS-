@@ -43,7 +43,7 @@ stages:
     - models/model.pkl
     - data/processed
     - src/model_evaluation.py
-    outs:
+    metrics:
     - reports/metrics.json
 
 params:
